@@ -147,14 +147,14 @@ public class ModifiedHillCipher
 			//String s;
 			if(ch==1){
 				System.out.println("Enter text to be encrypted: ");
-				String line = in.readLine();
+				String line = in.readLine().toLowerCase();
 				System.out.println("Encrypted text: ");
 				obj.divide(line, s,'e');
 				System.out.println();
 			}
 			else if(ch==2){
 				System.out.println("Enter text to be decrypted: ");
-				String line = in.readLine();
+				String line = in.readLine().toLowerCase();
 				System.out.println("Decrypted text: ");
 				obj.divide(line, s,'d');
 				System.out.println();
