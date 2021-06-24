@@ -248,7 +248,7 @@ public class HillCipher
 		System.out.println("Menu:\n1: Encryption\n2: Decryption");
 		choice = Integer.parseInt(in.readLine());
 		System.out.println("Enter the line: ");
-		String line = in.readLine();
+		String line = in.readLine().toLowerCase();
 		int rows,cols;
 		System.out.println("Enter the key dimensions: ");
 		rows=sc.nextInt();
