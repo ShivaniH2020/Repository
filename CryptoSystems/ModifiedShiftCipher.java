@@ -1,3 +1,11 @@
+/*
+
+Write a program to encrypt and decrypt messages using modified version of shift cipher algorithm described as follows: 
+Let k be a key, “x” be a plain text letter and “p” be the plain text predecessor of x, then cipher text is Ek(x)=(x+p+k)%26. 
+Since the first letter of the plain text has no predecessor, assume that its processor is “a”. Find the decryption method.
+
+*/
+
 import java.util.Scanner;
 
 class ModifiedShiftCipher{
